@@ -15,7 +15,7 @@
 /*                                                                         */
 /***************************************************************************/
 
-
+#include "ftheader.h"
 #include FT_ADVANCES_H
 
 #include "aflatin.h"

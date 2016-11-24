@@ -239,6 +239,65 @@
 		63E2AB51134D63AD0044A25D /* ttpic.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E2A991134D639A0044A25D /* ttpic.h */; };
 		63E2AB52134D63AE0044A25D /* ttpload.c in Headers */ = {isa = PBXBuildFile; fileRef = 63E2A992134D639A0044A25D /* ttpload.c */; };
 		63E2AB53134D63AE0044A25D /* ttpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E2A993134D639A0044A25D /* ttpload.h */; };
+		8B8EDC121DE6D8FF00422F08 /* afangles.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A809134D63990044A25D /* afangles.c */; };
+		8B8EDC131DE6D8FF00422F08 /* afcjk.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A80B134D63990044A25D /* afcjk.c */; };
+		8B8EDC141DE6D8FF00422F08 /* afdummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A80D134D63990044A25D /* afdummy.c */; };
+		8B8EDC151DE6D8FF00422F08 /* afglobal.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A810134D63990044A25D /* afglobal.c */; };
+		8B8EDC161DE6D8FF00422F08 /* afhints.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A812134D63990044A25D /* afhints.c */; };
+		8B8EDC171DE6D8FF00422F08 /* afindic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A814134D63990044A25D /* afindic.c */; };
+		8B8EDC181DE6D8FF00422F08 /* aflatin.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A816134D63990044A25D /* aflatin.c */; };
+		8B8EDC1A1DE6D8FF00422F08 /* afloader.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A81A134D63990044A25D /* afloader.c */; };
+		8B8EDC1B1DE6D8FF00422F08 /* afmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A81C134D63990044A25D /* afmodule.c */; };
+		8B8EDC1C1DE6D8FF00422F08 /* afpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A81E134D63990044A25D /* afpic.c */; };
+		8B8EDC1D1DE6D8FF00422F08 /* afwarp.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A821134D63990044A25D /* afwarp.c */; };
+		8B8EDC1E1DE6D8FF00422F08 /* ftadvanc.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A82A134D63990044A25D /* ftadvanc.c */; };
+		8B8EDC1F1DE6D8FF00422F08 /* ftcalc.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A831134D63990044A25D /* ftcalc.c */; };
+		8B8EDC201DE6D8FF00422F08 /* ftgloadr.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A837134D63990044A25D /* ftgloadr.c */; };
+		8B8EDC211DE6D8FF00422F08 /* ftobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A83E134D63990044A25D /* ftobjs.c */; };
+		8B8EDC221DE6D8FF00422F08 /* ftoutln.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A840134D63990044A25D /* ftoutln.c */; };
+		8B8EDC231DE6D8FF00422F08 /* ftrfork.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A844134D63990044A25D /* ftrfork.c */; };
+		8B8EDC241DE6D8FF00422F08 /* ftsnames.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A845134D63990044A25D /* ftsnames.c */; };
+		8B8EDC251DE6D8FF00422F08 /* ftstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A846134D63990044A25D /* ftstream.c */; };
+		8B8EDC261DE6D8FF00422F08 /* fttrigon.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A84A134D63990044A25D /* fttrigon.c */; };
+		8B8EDC271DE6D8FF00422F08 /* ftutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A84C134D63990044A25D /* ftutil.c */; };
+		8B8EDC281DE6D8FF00422F08 /* cffcmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A872134D63990044A25D /* cffcmap.c */; };
+		8B8EDC291DE6D8FF00422F08 /* cffdrivr.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A874134D63990044A25D /* cffdrivr.c */; };
+		8B8EDC2A1DE6D8FF00422F08 /* cffgload.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A877134D63990044A25D /* cffgload.c */; };
+		8B8EDC2B1DE6D8FF00422F08 /* cffload.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A879134D63990044A25D /* cffload.c */; };
+		8B8EDC2C1DE6D8FF00422F08 /* cffobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A87B134D63990044A25D /* cffobjs.c */; };
+		8B8EDC2D1DE6D8FF00422F08 /* cffparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A87D134D63990044A25D /* cffparse.c */; };
+		8B8EDC2E1DE6D8FF00422F08 /* cffpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A87F134D63990044A25D /* cffpic.c */; };
+		8B8EDC2F1DE6D8FF00422F08 /* pshalgo.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A91D134D63990044A25D /* pshalgo.c */; };
+		8B8EDC301DE6D8FF00422F08 /* pshglob.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A91F134D63990044A25D /* pshglob.c */; };
+		8B8EDC311DE6D8FF00422F08 /* pshmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A922134D63990044A25D /* pshmod.c */; };
+		8B8EDC321DE6D8FF00422F08 /* pshpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A925134D63990044A25D /* pshpic.c */; };
+		8B8EDC331DE6D8FF00422F08 /* pshrec.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A927134D63990044A25D /* pshrec.c */; };
+		8B8EDC341DE6D8FF00422F08 /* psmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A92D134D63990044A25D /* psmodule.c */; };
+		8B8EDC351DE6D8FF00422F08 /* pspic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A931134D63990044A25D /* pspic.c */; };
+		8B8EDC361DE6D8FF00422F08 /* ftraster.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A937134D63990044A25D /* ftraster.c */; };
+		8B8EDC371DE6D8FF00422F08 /* ftrend1.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A939134D639A0044A25D /* ftrend1.c */; };
+		8B8EDC381DE6D8FF00422F08 /* rastpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A93F134D639A0044A25D /* rastpic.c */; };
+		8B8EDC391DE6D8FF00422F08 /* sfdriver.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A946134D639A0044A25D /* sfdriver.c */; };
+		8B8EDC3A1DE6D8FF00422F08 /* sfntpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A94A134D639A0044A25D /* sfntpic.c */; };
+		8B8EDC3B1DE6D8FF00422F08 /* sfobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A94C134D639A0044A25D /* sfobjs.c */; };
+		8B8EDC3C1DE6D8FF00422F08 /* ttbdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A94E134D639A0044A25D /* ttbdf.c */; };
+		8B8EDC3D1DE6D8FF00422F08 /* ttcmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A950134D639A0044A25D /* ttcmap.c */; };
+		8B8EDC3E1DE6D8FF00422F08 /* ttkern.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A953134D639A0044A25D /* ttkern.c */; };
+		8B8EDC3F1DE6D8FF00422F08 /* ttload.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A955134D639A0044A25D /* ttload.c */; };
+		8B8EDC401DE6D8FF00422F08 /* ttmtx.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A957134D639A0044A25D /* ttmtx.c */; };
+		8B8EDC411DE6D8FF00422F08 /* ttpost.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A959134D639A0044A25D /* ttpost.c */; };
+		8B8EDC421DE6D8FF00422F08 /* ttsbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A95B134D639A0044A25D /* ttsbit.c */; };
+		8B8EDC431DE6D8FF00422F08 /* ttsbit0.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A95D134D639A0044A25D /* ttsbit0.c */; };
+		8B8EDC441DE6D8FF00422F08 /* ftgrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A95F134D639A0044A25D /* ftgrays.c */; };
+		8B8EDC451DE6D8FF00422F08 /* ftsmooth.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A962134D639A0044A25D /* ftsmooth.c */; };
+		8B8EDC461DE6D8FF00422F08 /* ftspic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A964134D639A0044A25D /* ftspic.c */; };
+		8B8EDC471DE6D8FF00422F08 /* ttdriver.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A985134D639A0044A25D /* ttdriver.c */; };
+		8B8EDC481DE6D8FF00422F08 /* ttgload.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A988134D639A0044A25D /* ttgload.c */; };
+		8B8EDC491DE6D8FF00422F08 /* ttgxvar.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A98A134D639A0044A25D /* ttgxvar.c */; };
+		8B8EDC4A1DE6D8FF00422F08 /* ttinterp.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A98C134D639A0044A25D /* ttinterp.c */; };
+		8B8EDC4B1DE6D8FF00422F08 /* ttobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A98E134D639A0044A25D /* ttobjs.c */; };
+		8B8EDC4C1DE6D8FF00422F08 /* ttpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A990134D639A0044A25D /* ttpic.c */; };
+		8B8EDC4D1DE6D8FF00422F08 /* ttpload.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A992134D639A0044A25D /* ttpload.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1135,6 +1194,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8EDC121DE6D8FF00422F08 /* afangles.c in Sources */,
+				8B8EDC131DE6D8FF00422F08 /* afcjk.c in Sources */,
+				8B8EDC141DE6D8FF00422F08 /* afdummy.c in Sources */,
+				8B8EDC151DE6D8FF00422F08 /* afglobal.c in Sources */,
+				8B8EDC161DE6D8FF00422F08 /* afhints.c in Sources */,
+				8B8EDC171DE6D8FF00422F08 /* afindic.c in Sources */,
+				8B8EDC181DE6D8FF00422F08 /* aflatin.c in Sources */,
+				8B8EDC1A1DE6D8FF00422F08 /* afloader.c in Sources */,
+				8B8EDC1B1DE6D8FF00422F08 /* afmodule.c in Sources */,
+				8B8EDC1C1DE6D8FF00422F08 /* afpic.c in Sources */,
+				8B8EDC1D1DE6D8FF00422F08 /* afwarp.c in Sources */,
+				8B8EDC1E1DE6D8FF00422F08 /* ftadvanc.c in Sources */,
+				8B8EDC1F1DE6D8FF00422F08 /* ftcalc.c in Sources */,
+				8B8EDC201DE6D8FF00422F08 /* ftgloadr.c in Sources */,
+				8B8EDC211DE6D8FF00422F08 /* ftobjs.c in Sources */,
+				8B8EDC221DE6D8FF00422F08 /* ftoutln.c in Sources */,
+				8B8EDC231DE6D8FF00422F08 /* ftrfork.c in Sources */,
+				8B8EDC241DE6D8FF00422F08 /* ftsnames.c in Sources */,
+				8B8EDC251DE6D8FF00422F08 /* ftstream.c in Sources */,
+				8B8EDC261DE6D8FF00422F08 /* fttrigon.c in Sources */,
+				8B8EDC271DE6D8FF00422F08 /* ftutil.c in Sources */,
+				8B8EDC281DE6D8FF00422F08 /* cffcmap.c in Sources */,
+				8B8EDC291DE6D8FF00422F08 /* cffdrivr.c in Sources */,
+				8B8EDC2A1DE6D8FF00422F08 /* cffgload.c in Sources */,
+				8B8EDC2B1DE6D8FF00422F08 /* cffload.c in Sources */,
+				8B8EDC2C1DE6D8FF00422F08 /* cffobjs.c in Sources */,
+				8B8EDC2D1DE6D8FF00422F08 /* cffparse.c in Sources */,
+				8B8EDC2E1DE6D8FF00422F08 /* cffpic.c in Sources */,
+				8B8EDC2F1DE6D8FF00422F08 /* pshalgo.c in Sources */,
+				8B8EDC301DE6D8FF00422F08 /* pshglob.c in Sources */,
+				8B8EDC311DE6D8FF00422F08 /* pshmod.c in Sources */,
+				8B8EDC321DE6D8FF00422F08 /* pshpic.c in Sources */,
+				8B8EDC331DE6D8FF00422F08 /* pshrec.c in Sources */,
+				8B8EDC341DE6D8FF00422F08 /* psmodule.c in Sources */,
+				8B8EDC351DE6D8FF00422F08 /* pspic.c in Sources */,
+				8B8EDC361DE6D8FF00422F08 /* ftraster.c in Sources */,
+				8B8EDC371DE6D8FF00422F08 /* ftrend1.c in Sources */,
+				8B8EDC381DE6D8FF00422F08 /* rastpic.c in Sources */,
+				8B8EDC391DE6D8FF00422F08 /* sfdriver.c in Sources */,
+				8B8EDC3A1DE6D8FF00422F08 /* sfntpic.c in Sources */,
+				8B8EDC3B1DE6D8FF00422F08 /* sfobjs.c in Sources */,
+				8B8EDC3C1DE6D8FF00422F08 /* ttbdf.c in Sources */,
+				8B8EDC3D1DE6D8FF00422F08 /* ttcmap.c in Sources */,
+				8B8EDC3E1DE6D8FF00422F08 /* ttkern.c in Sources */,
+				8B8EDC3F1DE6D8FF00422F08 /* ttload.c in Sources */,
+				8B8EDC401DE6D8FF00422F08 /* ttmtx.c in Sources */,
+				8B8EDC411DE6D8FF00422F08 /* ttpost.c in Sources */,
+				8B8EDC421DE6D8FF00422F08 /* ttsbit.c in Sources */,
+				8B8EDC431DE6D8FF00422F08 /* ttsbit0.c in Sources */,
+				8B8EDC441DE6D8FF00422F08 /* ftgrays.c in Sources */,
+				8B8EDC451DE6D8FF00422F08 /* ftsmooth.c in Sources */,
+				8B8EDC461DE6D8FF00422F08 /* ftspic.c in Sources */,
+				8B8EDC471DE6D8FF00422F08 /* ttdriver.c in Sources */,
+				8B8EDC481DE6D8FF00422F08 /* ttgload.c in Sources */,
+				8B8EDC491DE6D8FF00422F08 /* ttgxvar.c in Sources */,
+				8B8EDC4A1DE6D8FF00422F08 /* ttinterp.c in Sources */,
+				8B8EDC4B1DE6D8FF00422F08 /* ttobjs.c in Sources */,
+				8B8EDC4C1DE6D8FF00422F08 /* ttpic.c in Sources */,
+				8B8EDC4D1DE6D8FF00422F08 /* ttpload.c in Sources */,
 				63E2AA29134D639B0044A25D /* autofit.c in Sources */,
 				63E2AA2B134D639B0044A25D /* basepic.c in Sources */,
 				63E2AA2E134D639B0044A25D /* ftapi.c in Sources */,
